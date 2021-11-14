@@ -1,0 +1,51 @@
+:root {
+    --primary: rgb(229, 255, 0);
+    --secondary: rgb(255, 0, 149);
+    --dark: black;
+    --light: white;
+}
+
+.bodycontent{
+    background: linear-gradient(to right,var(--secondary) , var(--primary) );
+}
+    
+.headercontent{ 
+    margin-left:650px; 
+    border-radius: 25px;
+    font-size: 60px;
+    color:rgb(47, 203, 230);
+}
+
+.inputcontent {
+    border:1px solid black;
+    border-radius: 25px;
+    background-color: rgb(229, 250, 179);
+    margin-left: 400px;
+    margin-top:200px;
+    padding:25px;
+    width:500px;
+    font-size:20px;
+}
+
+.buttoncontent{
+    padding:25px;
+    border-radius: 25px;
+    width:300px;
+    font-size: 20px;
+    cursor:pointer;
+    background-color: pink;
+}
+
+.giftcontent{
+    text-align: center;
+    font-size: 50px;
+}
+
+.marquee {
+    height: 50px;
+    overflow: hidden;
+    position: relative;
+    background: #fefefe;
+    color: #333;
+    border: 1px solid #4a4a4a;
+}
